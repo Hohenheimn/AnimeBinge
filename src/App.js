@@ -12,9 +12,10 @@ function App() {
         <AnimeProvider> 
             <div className="App">
                 <Navigation />
-                <Routes>
+                {/* <Routes>
                     <Route path='/' element={<Home/>}/>
-                </Routes>
+                </Routes> */}
+                <Home/>
             </div>
         </AnimeProvider>
     );
