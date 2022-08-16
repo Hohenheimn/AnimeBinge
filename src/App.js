@@ -13,7 +13,7 @@ function App() {
             <div className="App">
                 <Navigation />
                 <Routes>
-                    <Route path='/anime-binge' element={<Home/>}/>
+                    <Route path='/' element={<Home/>}/>
                 </Routes>
             </div>
         </AnimeProvider>
