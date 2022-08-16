@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/AnimeBinge/static/css/main.d078ca34.css",
+    "main.js": "/AnimeBinge/static/js/main.e914ba7f.js",
+    "static/js/787.9c353dc1.chunk.js": "/AnimeBinge/static/js/787.9c353dc1.chunk.js",
+    "static/media/kimetsu.png": "/AnimeBinge/static/media/kimetsu.d8a6033558487e67d83b.png",
+    "static/media/ghostfighter.png": "/AnimeBinge/static/media/ghostfighter.01dc13b9710c7aad6dc1.png",
+    "static/media/slamdunk.png": "/AnimeBinge/static/media/slamdunk.8b1047b344381f9846e7.png",
+    "static/media/flameofrecca.png": "/AnimeBinge/static/media/flameofrecca.843d8009f2684c6bc18e.png",
+    "static/media/aot9.png": "/AnimeBinge/static/media/aot9.98ec09c21eaae9bc9ca1.png",
+    "static/media/jujutsu.png": "/AnimeBinge/static/media/jujutsu.e7a392dd6c2c41a8136e.png",
+    "static/media/aot4.png": "/AnimeBinge/static/media/aot4.2d40a3c29723e30d024f.png",
+    "static/media/aot5.png": "/AnimeBinge/static/media/aot5.0fe5b8f7905fb82a9779.png",
+    "static/media/aot3.png": "/AnimeBinge/static/media/aot3.0c50d399ba7f4714e53c.png",
+    "static/media/onepiece.png": "/AnimeBinge/static/media/onepiece.64800f13c41bf097cf89.png",
+    "static/media/aot6.png": "/AnimeBinge/static/media/aot6.d12e5f47c1caa36c599e.png",
+    "static/media/aot1.png": "/AnimeBinge/static/media/aot1.53b20e7b9510874f12ac.png",
+    "static/media/aot2.png": "/AnimeBinge/static/media/aot2.f9f7685245f3a6c03f30.png",
+    "static/media/Outfit-Light.ttf": "/AnimeBinge/static/media/Outfit-Light.8e4b89aa385da8f1058e.ttf",
+    "static/media/Outfit-Regular.ttf": "/AnimeBinge/static/media/Outfit-Regular.5a00cf1a6ae3ea70fb96.ttf",
+    "static/media/Outfit-Bold.ttf": "/AnimeBinge/static/media/Outfit-Bold.958af3eb04f5d52fff1d.ttf",
+    "static/media/Outfit-Medium.ttf": "/AnimeBinge/static/media/Outfit-Medium.1a96ec21fd3e057ba010.ttf",
+    "index.html": "/AnimeBinge/index.html",
+    "main.d078ca34.css.map": "/AnimeBinge/static/css/main.d078ca34.css.map",
+    "main.e914ba7f.js.map": "/AnimeBinge/static/js/main.e914ba7f.js.map",
+    "787.9c353dc1.chunk.js.map": "/AnimeBinge/static/js/787.9c353dc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d078ca34.css",
+    "static/js/main.e914ba7f.js"
+  ]
+}
