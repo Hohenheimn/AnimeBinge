@@ -12,10 +12,9 @@ function App() {
         <AnimeProvider> 
             <div className="App">
                 <Navigation />
-                {/* <Routes>
-                    <Route path='/' element={<Home/>}/>
-                </Routes> */}
-                <Home/>
+                <Routes>
+                    <Route path='/anime-binge' element={<Home/>}/>
+                </Routes>
             </div>
         </AnimeProvider>
     );
