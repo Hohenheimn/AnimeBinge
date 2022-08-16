@@ -1,0 +1,13 @@
+.container{background-color: #1a1a1a; padding: 50px;
+    div{ margin-bottom: 50px; position: relative;
+        h2{color: white; margin-bottom: 20px; font-size: 32px;
+            span{color: #fbc94a;}
+        }
+        ul{ display: flex; justify-content: space-between;
+            li{width: 32%; position: relative; cursor: pointer;
+                img{width: 100%; aspect-ratio: 1/1; object-fit: cover; border: 3px solid white; border-radius: 20px;}
+            }
+        }
+    }
+    div:nth-last-child(1){margin: 0;}
+}

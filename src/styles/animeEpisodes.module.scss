@@ -1,0 +1,41 @@
+@use '../styles/global.scss' as global;
+.container{ display: flex; max-height: 800px; align-items: flex-start; position: relative;
+    .svg{position: absolute; top: -60px; right: 0; color: white; font-weight: 800; font-size: 32px;}
+    .left{ width: 40%; margin: 0;
+        article{ margin-bottom: 20px; position: relative; width: 100%; aspect-ratio: 1/1.2; border-radius: 20px; overflow: hidden;  display: flex; align-items: flex-end;
+            background: global.$fadeBlackBg;
+            &::after{content: ''; position: absolute; height: 100%; width: 100%; left: 0; top: 0; background: global.$fadeBlackBg;}
+            img{position: absolute; width: 100%; height: 100%; object-fit: cover;}
+            aside{z-index: 1; padding: 20px 30px; width: 100%;
+                div{position: relative; 
+                    h3{font-size: 24px; color: white;}
+                    span{color: global.$categoryColor; font-size: 12px; }
+                    aside{padding: 0; position: absolute; color: white; font-size: 12px; right: 0; bottom: 0; margin: 0; width: auto;
+                        background:none ;
+                        svg{color: global.$yellow; font-size: 24px; margin-bottom: -4px;}
+                    }
+                }
+            }
+        }
+        p{color: global.$categoryColor; font-size: 18px; line-height: 1.5;}
+    }
+    .right{ width: 60%; margin: 0; padding-left: 20px; max-height: 800px; overflow: auto;
+
+        *{margin: 0; padding: 0;}
+        .header{display: flex; justify-content: space-between; margin-bottom: 20px;
+            h3{font-size: clamp(20px, 3vw, 24px); color: white;}
+        }
+        ul{ display: flex; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 20px;
+            li{width: 48%;
+                p{font-size: 18px; line-height: 1.5; color: global.$categoryColor;}
+                .title{font-size: 20px; color: white; margin-bottom: 10px;}
+            }
+            li:nth-child(1){ position: relative; aspect-ratio: 1.5/1;
+                img{width: 100%; height: 100%; object-fit: cover; border: none; position: absolute; top: 0; left: 0;}
+            }
+        }
+        ul:nth-last-child(1){margin: 0;}
+        .body{overflow: auto; height: calc(100% - 50px);
+        }
+    }
+}

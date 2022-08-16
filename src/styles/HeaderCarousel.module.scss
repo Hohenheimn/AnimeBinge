@@ -1,0 +1,49 @@
+@use '../styles/global.scss' as global;
+
+.hCarousel{ position: relative; width: 100%; height: 100vh;
+    img{width: 100%; height: 100%; object-fit: cover;}
+    div{width: 100%; height: 100%;}
+    .bg{position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.688), #000);}
+    article{ position: absolute; top: 50%; transform: translateY(-50%); width: 50%; left: 5%;
+        p{ color: white; font-size: 16px; line-height: 1.4; margin-bottom: 20px;}
+        h1{color: white; font-size: clamp(48px, 5vw, 80px); margin-bottom: 20px;}
+        .rnc{ display: flex; margin-bottom: 20px; align-items: center;
+            p{font-size: 12px; margin: 0; display: flex; align-items: center;}
+            svg{color: #fbc94a; font-size: 24px; margin-right: 2px;}
+            :nth-child(1){margin-right: 10px;}
+        }
+        .button{ display: flex; align-items: center;
+            a{ font-size: 16px; border-radius: 5px; text-decoration: none; background-color: global.$btnColor; color: white; padding: 10px 25px; height: 45px; display: flex; align-items: center; justify-content: center;
+                svg{font-size: 28px;}
+            }
+            
+            label{border: 2px solid white; color: white; display: flex; margin-left: 15px; cursor: pointer;
+                justify-content: center; align-items: center; background-color: transparent; font-size: 24px; 
+                border-radius: 10px; height: 45px; width: 45px; display: flex; transition: .2s ease-in-out;
+                svg{margin: 0;}
+            }
+            input[type=checkbox]{display: none;}
+            input[type=checkbox]:checked ~ label{ background-color: rgb(238, 62, 91); border-color: rgb(238, 62, 91);}
+        }
+    }
+    ul{ position: absolute; left: 5%; bottom: 50px; list-style: none; display: flex;
+        li{ margin-right: 20px;
+            a{color: rgb(173, 173, 173);  position: relative; text-decoration: none; font-family: global.$fontLight; padding-bottom: 5px;}
+            a::after{content: ''; display: none; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); height: 3px; width: 75%; background-color: global.$btnColor;}
+        }
+        li:nth-last-child(1){margin: 0;}
+        li:hover{
+            a{color: white;}
+        }
+        li.active{
+            a{font-family: global.$fontBold; color: white;}
+            a::after{display: block;}
+        }
+    }
+}
+.dots{ position: absolute; right: 5%; bottom: 50px; list-style: none; display: flex;
+    li{height: 20px; width: 20px; background-color: white; margin-left: 20px; border-radius: 50%; cursor: pointer; transition: .3s ease-in-out;}
+    li:nth-child(1){margin: 0;}
+    li.active{background-color: global.$btnColor; width: 200px; border-radius: 50px; cursor: unset; pointer-events: none;}
+    li:hover{background-color: global.$btnColor;}
+}

@@ -1,0 +1,18 @@
+@use '../styles/global.scss' as global;
+
+nav{ width: 90%; position: absolute; top: 0; left: 5%; padding: 50px 0; display: flex; justify-content: space-between; align-items: center; z-index: 99999;
+    h4{color: white; font-size: 28px;}
+    ul{ display: flex; list-style: none;
+        li{margin-left: 50px;
+            a{color: white; font-size: 16px; text-decoration: none;}
+        }
+        li:nth-child(1){margin: 0;}
+        li:nth-last-child(1){
+            a{ background-color: global.$btnColor; color: white; padding: 10px 25px;}
+        }
+        li:nth-last-child(2){
+            a{ border: 2px solid white; border-radius: 10px; padding: 10px 25px;}
+        }
+    }
+    aside{ color: white; font-size: 24px; cursor: pointer; display: none;}
+}

@@ -1,0 +1,25 @@
+@use '../styles/global.scss' as global;
+
+.trendCarousel{ cursor: grab; overflow: hidden;
+    section { display: flex;
+        aside{width: 450px; margin-right: 30px; min-width: 450px; aspect-ratio: 1.8/1; border-radius: 20px; position: relative; overflow: hidden;
+            img{width: 100%; height: 100%; object-fit: cover; pointer-events: none;}
+            article{ position: absolute; left: 0; top: 70%; width: 100%; height: 100%; padding: 20px; cursor: pointer;
+                background: linear-gradient(360deg, black, rgba(0, 0, 0, 0));
+                h4{color: white; margin-bottom: 0px; font-size: 24px;}
+                ul{width: 100%; display: flex; list-style: none; position: relative; margin-bottom: 10px;
+                    li{width: 100%; width: unset; font-size: 12px; color: rgba(255, 255, 255, 0.562); padding-right: 15px;}
+                    li:nth-last-child(1){width: 50px; display: flex; justify-content: center; align-items: center;
+                        color: white; position: absolute; right: 0; bottom: 0;
+                        svg{font-size: 20px; color: global.$yellow;}
+                    }
+                }
+                p{font-size: 16px; color: rgba(255, 255, 255, 0.562);}
+            }
+            article:hover{
+                ul li{color: white;}
+            }
+        }
+        aside:nth-last-child(1){margin: 0;}
+    }
+}

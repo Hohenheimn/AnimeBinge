@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'outfit-bold';
+    src: url('../fonts/outfit/Outfit-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-light';
+    src: url('../fonts/outfit/Outfit-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-regular';
+    src: url('../fonts/outfit/Outfit-Regular.ttf    ') format('truetype');
+}
+@font-face {
+    font-family: 'outfit-medium';
+    src: url('../fonts/outfit/Outfit-Medium.ttf') format('truetype');
+}
+
+*{ padding: 0; margin: 0; box-sizing: border-box; }
+
+$yellow: #fbc94a;
+
+$headerText: 'Outfit';
+
+$btnColor: #106580;
+
+$fadeBlackBg: linear-gradient(360deg, black, rgba(0, 0, 0, 0));
+
+$categoryColor: rgba(255, 255, 255, 0.562);
+
+$fontLight: 'outfit-light', sans-serif;
+
+$fontBold: 'outfit-bold', sans-serif;
+
+::-webkit-scrollbar {
+    width: 1px;             
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;      
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.562);   
+    border-radius: 10px;       
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    font-family: 'outfit-bold', sans-serif;
+}
+
+li, a , p , div , aside , article , section{
+    font-family: 'outfit-regular', sans-serif;
+}
+
+body{ background-color: black;}
+
+.App{ width: 95%; max-width: 1366px; position: relative; margin: auto; background-color: black; overflow: hidden;}
