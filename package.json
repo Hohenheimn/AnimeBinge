@@ -2,7 +2,7 @@
   "name": "react-name",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Hohenheimn.github.io/tiu-jomari",
+  "homepage": "http://Hohenheimn.github.io/anime-list",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
